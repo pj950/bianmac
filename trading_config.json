@@ -1,0 +1,39 @@
+{
+  "holding_list": [
+    "BTCUSDT",
+    "ETHUSDT",
+    "ADAUSDT"
+  ],
+  "watch_list": [
+    "BTCUSDT",
+    "ETHUSDT", 
+    "ADAUSDT",
+    "DOTUSDT",
+    "LINKUSDT",
+    "SOLUSDT",
+    "AVAXUSDT",
+    "MATICUSDT",
+    "ATOMUSDT",
+    "UNIUSDT"
+  ],
+  "notification_settings": {
+    "min_signal_strength": 4,
+    "check_interval": 300,
+    "rsi_oversold": 30,
+    "rsi_overbought": 70,
+    "volume_multiplier": 1.5
+  },
+  "email_config": {
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "from_email": "your_email@gmail.com",
+    "from_password": "your_app_password",
+    "to_email": "target_email@gmail.com"
+  },
+  "wechat_config": {
+    "corp_id": "your_corp_id",
+    "corp_secret": "your_corp_secret",
+    "agent_id": "your_agent_id",
+    "to_user": "@all"
+  }
+}
